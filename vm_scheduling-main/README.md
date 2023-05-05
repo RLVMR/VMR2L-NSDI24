@@ -1,15 +1,15 @@
-## 	基于强化学习的虚拟机调度
+## 	Virtual Machine ReScheduling Based on Reinforcement Learning
 
-### 安装步骤
+### installation steps
 
-1. 安装conda:
+1.  Install conda:
 
 ```
 $ conda create -n vm python=3.9
 $ conda activate vm
 ```
 
-2. 安装rllib:
+2. Install rllib:
 
 ```
 $ pip install gym==0.23.1
@@ -23,9 +23,9 @@ $ pip install tqdm matplotlib pandas wandb
 $ conda install -c dglteam dgl-cuda11.3
 ```
 
-### 运行算法
+### Run RL
 
-- 训练ppo算法
+- Training
 ```
 $ python3 main.py
 ```
